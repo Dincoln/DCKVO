@@ -14,6 +14,7 @@
 		825BEA9A1FAC72FC008956D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825BEA991FAC72FC008956D2 /* Assets.xcassets */; };
 		825BEA9D1FAC72FC008956D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825BEA9B1FAC72FC008956D2 /* LaunchScreen.storyboard */; };
 		825BEAA01FAC72FC008956D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825BEA9F1FAC72FC008956D2 /* main.m */; };
+		825BEAA81FAC7308008956D2 /* NSObject+DCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 825BEAA71FAC7308008956D2 /* NSObject+DCKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		825BEA9C1FAC72FC008956D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		825BEA9E1FAC72FC008956D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		825BEA9F1FAC72FC008956D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		825BEAA61FAC7308008956D2 /* NSObject+DCKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DCKVO.h"; sourceTree = "<group>"; };
+		825BEAA71FAC7308008956D2 /* NSObject+DCKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DCKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				825BEA8E1FAC72FC008956D2 /* AppDelegate.m */,
 				825BEA901FAC72FC008956D2 /* ViewController.h */,
 				825BEA911FAC72FC008956D2 /* ViewController.m */,
+				825BEAA61FAC7308008956D2 /* NSObject+DCKVO.h */,
+				825BEAA71FAC7308008956D2 /* NSObject+DCKVO.m */,
 				825BEA931FAC72FC008956D2 /* Main.storyboard */,
 				825BEA991FAC72FC008956D2 /* Assets.xcassets */,
 				825BEA9B1FAC72FC008956D2 /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			files = (
 				825BEA981FAC72FC008956D2 /* DCKVO.xcdatamodeld in Sources */,
 				825BEA921FAC72FC008956D2 /* ViewController.m in Sources */,
+				825BEAA81FAC7308008956D2 /* NSObject+DCKVO.m in Sources */,
 				825BEAA01FAC72FC008956D2 /* main.m in Sources */,
 				825BEA8F1FAC72FC008956D2 /* AppDelegate.m in Sources */,
 			);
